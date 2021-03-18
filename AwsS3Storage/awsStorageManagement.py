@@ -7,8 +7,8 @@ from application_logging.logger import App_Logger
 class AwsStorageManagement:
 
     def __init__(self):
-        self.AWS_KEY_ID = 'AKIARHN353IKCSG2L74A'  # AWS KEY ID
-        self.AWS_SECRET = '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'  # AWS SECRET KEY
+        self.AWS_KEY_ID = '#####'  # AWS KEY ID
+        self.AWS_SECRET = '#####'  # AWS SECRET KEY
 
         #Creating a s3 client to access resources
         self.s3 = boto3.client("s3",
